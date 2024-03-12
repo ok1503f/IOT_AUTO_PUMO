@@ -10,6 +10,7 @@ Table of Contents
 - Customization
 - Contributing
 - License
+
 Features
 - Real-time monitoring of soil moisture levels.
 - Automatic control of the pump based on user-defined moisture thresholds.
