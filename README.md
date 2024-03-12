@@ -16,6 +16,7 @@ Features
 - Automatic control of the pump based on user-defined moisture thresholds.
 - Manual control of the pump via the Blynk mobile app.
 - Notifications sent via LINE when soil moisture exceeds certain thresholds.
+
 Requirements
 - Arduino board (e.g., ESP8266)
 - Soil moisture sensor
@@ -23,6 +24,7 @@ Requirements
 - Relay module
 - Blynk account and mobile app
 - LINE Notify account (for receiving notifications)
+
 Setup
 1. Hardware Setup:
 Connect the soil moisture sensor, DHT sensor, and relay module to the Arduino board as per the provided circuit diagram.
@@ -37,11 +39,13 @@ Connect the soil moisture sensor, DHT sensor, and relay module to the Arduino bo
 4. LINE Notify Setup:
 - Create a LINE Notify account and generate an access token.
 - Replace LINE_TOKEN in the sketch with your access token.
+
 Usage
 1. Power on the Arduino board.
 2. Open the Blynk app on your mobile device.
 3. Monitor soil moisture levels and control the pump manually or set automatic mode with desired moisture thresholds.
 4. Receive notifications via LINE when soil moisture exceeds specified thresholds.
+
 Customization
 - Adjust the pin assignments and sensor types in the sketch if using different hardware configurations.
 - Modify the thresholds and notification messages as per your requirements.
