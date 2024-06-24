@@ -1,4 +1,4 @@
-# IOT_AUTO_PUMO
+# IOT_AUTO_PUMP
 Soil Moisture Monitoring and Pump Control System
 This project is an Arduino-based system that monitors soil moisture levels and controls a pump to maintain optimal soil moisture for plants. It utilizes Blynk for remote monitoring and control via a mobile app and sends notifications via LINE messaging platform.
 
